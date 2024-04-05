@@ -19,6 +19,8 @@ const getMinIndia = (data) => {
   return data.reduce((mn, now) => Math.min(mn, now[6]), Infinity);
 };
 
+
+
 // trim() - удалить лишнее 
 // split() - превратить в массив
 // map() - на основе старого создaет новый массив
